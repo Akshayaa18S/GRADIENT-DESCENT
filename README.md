@@ -37,7 +37,7 @@ The dataset is synthetically generated with noise, and we analyze how each metho
 - **Loss Convergence**: Displays how loss decreases over epochs (Gradient Descent).
 
 ## How to Run
-1. Run **linear_regression_optimization.py** in Python.
+1. Run **Gradient Descent.py** in Python.
 2. The script will generate the data, optimize, and visualize results.
 
 ## Dependencies
