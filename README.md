@@ -9,7 +9,7 @@ This project compares two optimization techniques for finding the best slope in 
 The dataset is synthetically generated with noise, and we analyze how each method finds the best-fitting slope.
 
 ## File Structure
-- **linear_regression_optimization.py** → Python script containing the implementation of both methods, plots, and results.
+- **Gradient Descent.py** → Python script containing the implementation of both methods, plots, and results.
 - **README.md** → This file explaining the project.
 
 ## Methods Explained
