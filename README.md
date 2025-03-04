@@ -9,7 +9,7 @@ This project compares two optimization techniques for finding the best slope in 
 The dataset is synthetically generated with noise, and we analyze how each method finds the best-fitting slope.
 
 ## File Structure
-- **Gradient Descent.ipynb** → Jupyter Notebook containing the implementation of both methods, plots, and results.
+- **linear_regression_optimization.py** → Python script containing the implementation of both methods, plots, and results.
 - **README.md** → This file explaining the project.
 
 ## Methods Explained
@@ -26,21 +26,21 @@ The dataset is synthetically generated with noise, and we analyze how each metho
 ## Results & Comparison
 | Method            | Best Slope | Final Loss | Time Taken  |
 |------------------|------------|-------------|-------------|
-| Linear Search    | ~2.79      | ~1.01       | ~0.00007 sec |
-| Gradient Descent | ~3.39      | ~6.62       | ~0.0145 sec  |
+| Linear Search    | 2.7879      | 0.9316       | 0.001462 sec |
+| Gradient Descent | 3.3697      | 6.6211       | 0.001373 sec  |
 
 - **Linear Search** is accurate but inefficient for large search spaces.
-- **Gradient Descent** is scalable but sensitive to learning rate settings.
+- **Gradient Descent** is scalable but sensitive to hyperparameters like learning rate.
 
 ## Visualization
 - **Loss vs. Slope**: Shows how loss changes across different slopes (Linear Search).
 - **Loss Convergence**: Displays how loss decreases over epochs (Gradient Descent).
 
 ## How to Run
-1. Open **Gradient Descent.ipynb** in Jupyter Notebook or Google Colab.
-2. Run all cells to generate the data, optimize, and visualize results.
+1. Run **linear_regression_optimization.py** in Python.
+2. The script will generate the data, optimize, and visualize results.
 
 ## Dependencies
+```bash
 pip install numpy matplotlib
-
-
+```
